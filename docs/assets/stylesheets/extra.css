@@ -1,0 +1,83 @@
+:root {
+  --kb-radius: 18px;
+}
+
+.md-grid {
+  max-width: 1440px;
+}
+
+.hero {
+  padding: 2rem;
+  margin: 1rem 0 2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--kb-radius);
+  background:
+    radial-gradient(circle at top right, color-mix(in srgb, var(--md-accent-fg-color) 16%, transparent), transparent 38%),
+    var(--md-code-bg-color);
+}
+
+.hero h2 {
+  margin-top: 0;
+  max-width: 760px;
+  font-size: clamp(1.7rem, 4vw, 3rem);
+  line-height: 1.08;
+}
+
+.grid.cards > ul > li,
+.grid.cards > ol > li {
+  border-radius: var(--kb-radius);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.grid.cards > ul > li:hover,
+.grid.cards > ol > li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.markmap {
+  position: relative;
+  min-height: 620px;
+  margin: 1.5rem 0 2rem;
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--kb-radius);
+  background: var(--md-code-bg-color);
+}
+
+.markmap > svg {
+  width: 100%;
+  height: 620px;
+}
+
+.mermaid {
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--kb-radius);
+  background: var(--md-code-bg-color);
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .hero {
+    padding: 1.25rem;
+  }
+
+  .markmap,
+  .markmap > svg {
+    min-height: 520px;
+    height: 520px;
+  }
+}
