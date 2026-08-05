@@ -29,6 +29,13 @@
           "icon": "↗",
           "path": "startup/turkiyeye-giris",
           "file": "startup/turkiyeye-giris/index.md"
+        },
+        {
+          "title": "Küresel Sinyal → Türkiye Radarı",
+          "description": "Doğrulanmış yabancı modellerden 7 günlük Türkiye tezleri",
+          "icon": "◎",
+          "path": "startup/turkiyeye-giris/kuresel-sinyal-radari",
+          "file": "startup/turkiyeye-giris/kuresel-sinyal-radari/index.md"
         }
       ]
     }

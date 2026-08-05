@@ -4,6 +4,15 @@ Bu alan, yabancı bir ürünün, girişimin veya iş modelinin Türkiye pazarın
 
 Buraya daha önce ChatGPT ile yazılmış pazar giriş analizleri eklenecek. Ham konuşma aynen kopyalanmayacak; **iddialar korunacak, tekrarlar temizlenecek, eksik bağlar tamamlanacak ve sonuç karar dosyasına dönüştürülecek.**
 
+## Karar dosyaları
+
+### Küresel Girişim Sinyalleri → Türkiye Fırsat Radarı
+
+Son 36 ayda güçlenen agentic operasyon modellerini dokuz coğrafya, 25'ten fazla yabancı şirket/kategori ve 14 bağımsız fırsat ailesi üzerinden tarar. Türkiye'deki yerli ürünleri, manuel alternatifleri, karşı-tezleri, etik riskleri ve yedi günlük saha deneylerini birlikte değerlendirir.
+
+**Karar:** Kesin kazanan yok; distribütör sipariş giriş copilot'u koşullu ilk pilot lideri.  
+[Karar dosyasını aç](#startup%2Fturkiyeye-giris%2Fkuresel-sinyal-radari)
+
 ## Her giriş dosyasının ana sorusu
 
 > Bu ürün Türkiye'de yalnızca ilgi görür mü, yoksa sürdürülebilir biçimde satın alınır, dağıtılır ve savunulabilir bir işe dönüşür mü?
@@ -36,11 +45,11 @@ Her analiz sonunda aşağıdaki kararlardan biri açıkça seçilir:
 
 ## Dosyalama düzeni
 
-Her şirket veya ürün için ayrı klasör kullan:
+Her şirket, ürün veya bağımsız karar çalışması için ayrı klasör kullan:
 
 ```text
 startup/turkiyeye-giris/
-└── urun-veya-sirket-adi/
+└── karar-dosyasi-adi/
     ├── index.md
     ├── kaynaklar.md
     └── deney-plani.md
@@ -48,15 +57,13 @@ startup/turkiyeye-giris/
 
 Küçük analizlerde yalnızca `index.md` yeterlidir. Kaynak sayısı ve deney planı büyüdüğünde dosyalar ayrılır.
 
-## Eklenecek ilk çalışmalar
+## Yeni çalışma ekleme süreci
 
-Daha önce hazırlanmış Türkiye'ye giriş yazıları aşağıdaki sırayla işlenecek:
-
-1. Mevcut ChatGPT cevabındaki bütün somut bulgular çıkarılacak.
-2. Yinelenen veya yalnızca retorik olan cümleler ayıklanacak.
-3. Güncelliğe bağlı iddialar yeniden doğrulanacak.
-4. Eksik pazar, mevzuat, fiyatlama ve dağıtım halkaları tamamlanacak.
-5. İçerik şablona göre yazılacak.
-6. Bu sayfadaki menü listesine yeni dosya eklenecek.
+1. Mevcut ChatGPT cevabındaki bütün somut bulgular çıkarılır.
+2. Yinelenen veya yalnızca retorik olan cümleler ayıklanır.
+3. Güncelliğe bağlı iddialar yeniden doğrulanır.
+4. Eksik pazar, mevzuat, fiyatlama ve dağıtım halkaları tamamlanır.
+5. İçerik `_SABLON.md` standardına göre yazılır.
+6. Bu sayfadaki karar listesi ve `content/index.json` menüsü güncellenir.
 
 > Amaç “güzel bir rapor” değil; Türkiye'ye giriş kararını değiştirecek bilgiyi hızlıca görünür kılmaktır.
