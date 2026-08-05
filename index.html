@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Faruk'un araştırma, karar ve proje bilgi merkezi">
+  <title>Faruk Knowledge Base</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">FK</div>
+        <div>
+          <strong>Faruk Knowledge Base</strong>
+          <span>araştırmalar · kararlar · projeler</span>
+        </div>
+      </div>
+
+      <label class="search-wrap" for="search">
+        <span>⌕</span>
+        <input id="search" type="search" placeholder="Başlıklarda ara…" autocomplete="off">
+      </label>
+
+      <nav id="navigation" aria-label="Bilgi merkezi menüsü"></nav>
+
+      <div class="sidebar-footer">
+        <span class="status-dot"></span>
+        GitHub üzerinden güncellenir
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="menu-button" id="menuButton" aria-label="Menüyü aç">☰</button>
+        <div class="breadcrumbs" id="breadcrumbs">Ana Sayfa</div>
+        <button class="theme-button" id="themeButton" aria-label="Temayı değiştir">◐</button>
+      </header>
+
+      <section class="reader">
+        <div class="loading" id="loading">İçerik yükleniyor…</div>
+        <article class="article" id="article" hidden></article>
+        <div class="error" id="error" hidden>
+          <h1>Sayfa bulunamadı</h1>
+          <p>İçerik dosyası yüklenemedi. Menüden başka bir sayfa seç.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
