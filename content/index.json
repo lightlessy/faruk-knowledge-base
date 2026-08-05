@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "title": "Başlangıç",
+      "items": [
+        {
+          "title": "Ana Panel",
+          "description": "Bilgi merkezinin çalışma biçimi",
+          "icon": "⌂",
+          "path": "ana-panel",
+          "file": "content/welcome.md"
+        }
+      ]
+    },
+    {
+      "title": "Startup",
+      "items": [
+        {
+          "title": "Startup Merkezi",
+          "description": "Fikirlerden pazara girişe ana harita",
+          "icon": "◈",
+          "path": "startup",
+          "file": "startup/README.md"
+        },
+        {
+          "title": "Türkiye'ye Giriş",
+          "description": "Pazar giriş araştırmaları ve karar dosyaları",
+          "icon": "↗",
+          "path": "startup/turkiyeye-giris",
+          "file": "startup/turkiyeye-giris/index.md"
+        }
+      ]
+    }
+  ]
+}
