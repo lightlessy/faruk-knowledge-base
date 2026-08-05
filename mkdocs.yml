@@ -14,6 +14,12 @@ nav:
           - Ana Karar Ağacı: startup/siparis-operasyon-copilotu/index.md
           - Pazar ve Müşteri: startup/siparis-operasyon-copilotu/pazar.md
           - Ürün ve Çözüm: startup/siparis-operasyon-copilotu/urun.md
+          - Teknik Paket:
+              - Sunum ve Kapsam: startup/siparis-operasyon-copilotu/teknik/index.md
+              - Teknik Mimari: startup/siparis-operasyon-copilotu/teknik/mimari.md
+              - Güvenlik ve Kalite: startup/siparis-operasyon-copilotu/teknik/guvenlik-kalite.md
+              - Uygulama Planı: startup/siparis-operasyon-copilotu/teknik/uygulama-plani.md
+              - Teslimat ve Test: startup/siparis-operasyon-copilotu/teknik/teslimat-kontrol.md
           - Dağıtım ve Satış: startup/siparis-operasyon-copilotu/satis.md
           - Ekonomi: startup/siparis-operasyon-copilotu/ekonomi.md
           - Deneyler: startup/siparis-operasyon-copilotu/deneyler.md
