@@ -1,0 +1,75 @@
+site_name: Faruk Knowledge Base
+site_description: Startup, araştırma, karar ve hareket planları için katmanlı bilgi merkezi
+site_url: https://lightlessy.github.io/faruk-knowledge-base/
+repo_url: https://github.com/lightlessy/faruk-knowledge-base
+repo_name: lightlessy/faruk-knowledge-base
+edit_uri: edit/main/docs/
+
+nav:
+  - Ana Panel: index.md
+  - Startup:
+      - Merkez: startup/index.md
+      - Katmanlı Hareket Planı: startup/hareket-plani.md
+      - Türkiye'ye Giriş: startup/turkiyeye-giris.md
+  - Şablonlar:
+      - Startup Karar Ağacı: sablonlar/startup-karar-agaci.md
+  - Kullanım:
+      - GPT Commit Protokolü: kullanim/gpt-commit-protokolu.md
+
+theme:
+  name: material
+  language: tr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Koyu moda geç
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Açık moda geç
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/markmap-autoloader@0.18.12
+
+copyright: Faruk Knowledge Base · karar vermek için yaz, hareket etmek için haritala
