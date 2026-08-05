@@ -1,6 +1,6 @@
 # Katmanlı Startup Hareket Planı
 
-Bu sayfa startup planının **kuşbakışı kontrol merkezi**dir. Aşağıdaki yapı bilinçli olarak genel bırakıldı: mevcut ChatGPT konuşmasındaki gerçek startup planı işlendiğinde dallar, deneyler, tarihler ve eşikler somutlaştırılacak.
+Bu sayfa bütün startup çalışmalarının **kuşbakışı kontrol merkezi**dir. Ayrıntılı aktif plan [Sipariş Operasyon Copilot'u karar ağacında](siparis-operasyon-copilotu/index.md) tutulur.
 
 ## 1. İnteraktif zihin haritası
 
@@ -8,157 +8,177 @@ Bu sayfa startup planının **kuşbakışı kontrol merkezi**dir. Aşağıdaki y
 <script type="text/template">
 # Startup Hareket Sistemi
 ## 0. Kuzey Yıldızı
-### Hangi insan için?
-### Hangi ölçülebilir değişim?
-### Neden şimdi?
-## 1. Problem–Müşteri Kolu
-### İlk müşteri segmentini seç
-### 10–20 problem görüşmesi yap
-### Mevcut çözüm ve kaybı ölç
-### Karar Kapısı P1
-#### Güçlü ve tekrarlanan acı → Çözüm testine geç
-#### İlgi var, ödeme yok → Segment veya problem daralt
-#### Acı zayıf → Yeni problem kolu aç
-## 2. Çözüm–Ürün Kolu
-### Tek cümlelik değer önerisi
-### En ucuz doğrulama biçimini seç
-#### Manuel hizmet
-#### Concierge MVP
-#### Tıklanabilir prototip
-#### Dar teknik prototip
-### Kullanım testi
-### Karar Kapısı Ü1
-#### Kullanıcı sonucu alıyor → Ücretli pilot
-#### Kullanıyor ama sonuç yok → Çözümü değiştir
-#### Kullanmıyor → Onboarding veya problem uyumunu yeniden incele
-## 3. Dağıtım–Satış Kolu
-### İlk 10 müşterinin bulunduğu kanal
-### Mesaj ve teklif deneyi
-### Satış görüşmeleri
-### Karar Kapısı D1
-#### Tekrarlanabilir görüşme ve dönüşüm → Kanalı ölçekle
-#### Görüşme var, satış yok → Teklif veya güven sorununu çöz
-#### Görüşme yok → Kanalı değiştir
-## 4. Ekonomi Kolu
-### Fiyat testi
-### Teslim maliyeti
-### Brüt marj
-### Tahsilat ve nakit döngüsü
-### Karar Kapısı E1
-#### Pozitif birim ekonomi → Kontrollü büyüme
-#### Marj zayıf → Fiyat, kapsam veya otomasyon değişikliği
-#### Nakit açığı → Büyümeyi durdur, finansman planı
-## 5. Operasyon–Risk Kolu
-### Şirket ve sözleşmeler
-### Veri ve mevzuat
-### Teknik güvenilirlik
-### Destek ve teslimat
-### Kritik risk kapısı
-#### Yönetilebilir → Pilot
-#### Engelleyici → Tasarım veya pazar değişikliği
-## 6. Türkiye'ye Giriş Kolu
-### Yerel segment
-### TL fiyatlama ve kur riski
-### Yerel dağıtım
-### Güven ve destek
-### Mevzuat
-### Giriş kararı
-#### Doğrudan satış
-#### Yerel partner
-#### Distribütör
-#### Bekle
-## 7. Haftalık Yürütme
-### Bu haftanın tek ana varsayımı
-### En fazla üç kritik hareket
-### Cuma kanıt incelemesi
-### Devam / Pivot / Durdur / Bekle
+### Gerçek nakit
+### Kurucu özerkliği
+### Sonraki girişimlere aktarılan teknik ve ticari ustalık
+## 1. Aktif Startup
+### Sipariş Operasyon Copilot'u
+#### Aktif Dal
+##### P1: yüksek hacimli gerçek problem
+##### P2: gerçek dosya paylaşımı
+##### D1: ≥20 bin TL ödeme taahhüdü
+#### Başarı → Shadow Pilot
+#### Başarısızlık → Güven/Kanal Patch'i
+#### Yine başarısız → Pivot veya öldür
+## 2. Problem–Müşteri Kolu
+### Son olay
+### Hacim
+### Bugünkü alternatif
+### Mevcut bütçe
+### Karar Kapısı
+#### Güçlü acı + veri → Çözüm
+#### İlgi var, ödeme/veri yok → güven/segment
+#### Acı zayıf → öldür
+## 3. Çözüm–Ürün Kolu
+### Concierge
+### Shadow mode
+### Exception kuyruğu
+### İnsan onayı
+### Karar Kapısı
+#### ≥70 hızlı onay
+#### <%2 kritik hata
+#### ≥60 süre azalması
+## 4. Dağıtım–Satış Kolu
+### İlk 30
+### ERP bayisi
+### Teknik ticaret kümeleri
+### Depozito
+### Karar Kapısı
+#### Ödeme → pilot
+#### ROI var ödeme yok → teklif patch'i
+#### 10 teklifte sıfır → pivot/öldür
+## 5. Ekonomi Kolu
+### 20–25 bin diagnostic
+### 45 bin shadow pilot
+### Fayda ≥3x maliyet
+### İkinci müşteri pozitif katkı
+## 6. Operasyon–Risk Kolu
+### Tek inbox
+### KVKK ve veri haritası
+### CSV-first
+### İkinci müşteride ≥70 tekrar kullanım
+## 7. Türkiye'ye Giriş Kolu
+### Yerel rakip var
+### Kama: dikey + ERP + alias + sonuç
+### ArisaiSoft ve entegratör karşılaştırması
+### Logo/Mikro partner dalı
+## 8. Dondurulan Fırsatlar
+### Tahsilat exception desk
+### Marj leakage
+### Freight audit
+### EKAP QA
+### Security questionnaire
+### CBAM evidence ops
+## 9. Bu Hafta
+### 30 hedef ve ilk temas
+### 8–10 görüşme + iki veri paketi
+### Concierge + ≥20 bin TL teklif
 </script>
 </div>
 
 !!! info "Haritayı kullanma şekli"
-    Dalları aynı anda bitirmeye çalışma. En büyük riski taşıyan varsayımı seç; o varsayımı test eden yolu **aktif dal** yap. Diğer dallar görünür kalır ama bekler.
+    Dalları aynı anda bitirme. En büyük belirsizliği taşıyan yolu **aktif dal** yap; diğer gerekli işler görünür kalır fakat bekler.
 
 ## 2. Karar kapılı ana akış
 
 ```mermaid
 flowchart TD
-    S[Başlangıç: Startup tezi] --> P{Problem güçlü ve sık mı?}
-    P -->|Hayır| P0[Segmenti veya problemi değiştir]
+    S["Başlangıç: Startup tezi"] --> P{"Problem güçlü, sık ve ücretli mi?"}
+    P -->|Hayır| P0["Segmenti veya problemi değiştir"]
     P0 --> P
-    P -->|Evet| V{Müşteri çözümü deniyor mu?}
-    V -->|Hayır| V0[Değer önerisi / çözüm biçimi / onboarding değiştir]
+    P -->|Evet| V{"Gerçek veri paylaşılıyor mu?"}
+    V -->|Hayır| V0["Güven, yerinde işlem, maskeleme veya read-only patch'i"]
     V0 --> V
-    V -->|Evet| W{Ödeme veya ciddi taahhüt var mı?}
-    W -->|Hayır| W0[Fiyat, güven, teklif veya müşteri segmentini test et]
+    V -->|Evet| W{"Ödeme veya ciddi taahhüt var mı?"}
+    W -->|Hayır| W0["Fiyat, güven, teklif, kanal veya segmenti test et"]
     W0 --> W
-    W -->|Evet| R{Tekrarlanabilir dağıtım kanalı var mı?}
-    R -->|Hayır| R0[Dar kanal deneyleri: outbound, partner, topluluk, içerik]
-    R0 --> R
-    R -->|Evet| U{Birim ekonomi ve operasyon taşınabilir mi?}
-    U -->|Hayır| U0[Kapsamı daralt, fiyatı artır, otomasyonu geliştir]
+    W -->|Evet| U{"Çözüm ölçülen sonuç üretiyor mu?"}
+    U -->|Hayır| U0["Mekanizmayı değiştir, daralt veya öldür"]
     U0 --> U
-    U -->|Evet| G[Kontrollü büyüme]
-    G --> T{Türkiye pazarı için yerel uyum gerekli mi?}
-    T -->|Evet| TL[Yerel fiyatlama + dağıtım + mevzuat pilotu]
-    T -->|Hayır| GL[Mevcut modeli ölçekle]
+    U -->|Evet| E{"Fayda maliyetin ≥3 katı mı?"}
+    E -->|Hayır| E0["Kapsamı/fiyatı/hacmi değiştir veya öldür"]
+    E0 --> E
+    E -->|Evet| R{"İkinci müşteride tekrarlanabilir mi?"}
+    R -->|Hayır| R0["Ürünleşmiş hizmet veya ölçek tezini kapat"]
+    R -->|Evet| G["Kontrollü büyüme"]
 ```
 
 ## 3. Paralel ama bağımlı iş akışları
 
-=== "Keşif"
+=== "Problem–Müşteri"
 
-    - [ ] İlk ödeme ihtimali en yüksek segmenti seç
-    - [ ] Görüşme sorularını hazırla
-    - [ ] Problem sıklığı, şiddeti ve bugünkü maliyetini ölç
-    - [ ] Karar eşiğini görüşmeler başlamadan yaz
+    - Son 30 gün işlem hacmi görülmeden segment doğrulanmaz.
+    - Son olay, kayıp ve bugünkü alternatif kaydedilir.
+    - Gerçek dosya paylaşımı problem kanıtının parçasıdır.
+    - Başarı sonucu çözüm testini açar.
 
-=== "Ürün"
+=== "Çözüm–Ürün"
 
-    - [ ] Sonucu sağlayan en küçük çözümü tanımla
-    - [ ] Kod yazmadan test edilebilen kısmı ayır
-    - [ ] Kullanıcı davranışı ve sonuç metriğini belirle
-    - [ ] Başarısız deney sonrası hangi bileşenin değişeceğini yaz
+    - Koddan önce concierge ve shadow mode.
+    - En fazla üç teslimat.
+    - Human-in-the-loop ve kaynak gösterimi.
+    - Ürün kapısı ödeme/veri sonrasında açılır.
 
-=== "Satış"
+=== "Dağıtım–Satış"
 
-    - [ ] İlk 100 müşteri adayının nerede olduğunu belirle
-    - [ ] Tek bir kanal ve tek bir teklif ile başla
-    - [ ] Görüşme → pilot → ödeme dönüşümünü izle
-    - [ ] İtirazları kategori hâlinde kaydet
+    - İlk 30 dar hedef.
+    - Tek kanal/tek mesaj değil; kanal sonuçla değerlendirilir.
+    - Görüşme → veri → teklif → depozito dönüşümü izlenir.
+    - “Güzel fikir” taahhüt değildir.
 
-=== "Operasyon"
+=== "Ekonomi"
 
-    - [ ] Pilot teslimatının gerçek maliyetini çıkar
-    - [ ] Manuel iş yükünü ve darboğazı kaydet
-    - [ ] Hukuk, veri, tahsilat ve destek risklerini sırala
-    - [ ] Ölçeklemeden önce kırılacak ilk noktayı tahmin et
+    - Pilot fiyatı hipotezdir.
+    - Gerçek insan zamanı, hata ve kurucu saati ölçülür.
+    - Fayda ≥3x değilse ölçek açılmaz.
+    - İkinci müşteri pozitif katkı sağlamadan CAC/LTV yazılmaz.
+
+=== "Operasyon–Risk"
+
+    - Tek inbox, CSV-first ve shadow mode.
+    - KVKK, veri minimizasyonu, tenant izolasyonu ve audit log.
+    - Bypass ve destek yükü ölçülür.
+    - İkinci müşteride ≥70 tekrar kullanım aranır.
+
+=== "Türkiye'ye Giriş"
+
+    - “Yerel ürün yok” varsayımı yasaktır.
+    - Yerli rakip, ERP, entegratör, insan ve WhatsApp gerçek alternatiftir.
+    - Yerel kama: dikey veri + ERP + dağıtım + sonuç.
+    - Yalnız daha ucuz Türkçe kopya girilmez.
 
 ## 4. Aktif dal tablosu
 
-GPT, gerçek planı işlerken bu tabloyu somut bilgilerle doldurmalıdır.
-
 | Alan | Aktif cevap |
 |---|---|
-| Bu haftanın ana varsayımı | _Henüz işlenmedi_ |
-| Neden en riskli varsayım bu? | _Henüz işlenmedi_ |
-| En fazla üç hareket | _Henüz işlenmedi_ |
-| Beklenen somut kanıt | _Henüz işlenmedi_ |
-| Başarı eşiği | _Henüz işlenmedi_ |
-| Başarısızlık eşiği | _Henüz işlenmedi_ |
-| Sonraki açılacak dal | _Henüz işlenmedi_ |
-| Dondurulan işler | _Henüz işlenmedi_ |
+| Bu haftanın ana varsayımı | Yüksek hacimli teknik distribütör gerçek dosya paylaşır ve ölçülen değer için ≥20.000 TL taahhüt verir |
+| Neden en riskli? | Bu sonuç çıkmadan model, API, UI ve ölçek ekonomisi anlamsız |
+| En fazla üç hareket | 30 hedef/ilk temas; 8–10 walkthrough + iki veri paketi; concierge + ücretli teklif |
+| Beklenen somut kanıt | Hacim, son olay, 100+ satır, SKU, import şablonu, süre/hata baseline, depozito |
+| Başarı eşiği | ≥1 ödeme + ≥2 veri paketi + ≥6 güçlü acı |
+| Başarısızlık eşiği | 30 hedeften <3 veri paylaşımı veya 10 nitelikli teklifte sıfır ödeme |
+| Sonraki açılacak dal | Shadow benchmark Ü1; sonra ERP writeback Ü2 |
+| Dondurulan işler | Tam API, WhatsApp entegrasyonu, UI, marka, stok/fiyat otomasyonu ve diğer fırsat aileleri |
 
-## 5. Planın kalite kontrolü
+## 5. Aktif dosyaya geçiş
+
+- [Ana karar ağacı](siparis-operasyon-copilotu/index.md)
+- [Deneyler ve ölçüm](siparis-operasyon-copilotu/deneyler.md)
+- [Karar günlüğü](siparis-operasyon-copilotu/karar-gunlugu.md)
+
+## 6. Planın kalite kontrolü
 
 Bir hareket aşağıdakilerden hiçbirini değiştirmiyorsa muhtemelen gereksizdir:
 
-- Müşteri hakkındaki kesinlik
-- Problemin şiddeti hakkındaki kesinlik
-- Çözümün işe yaradığına dair kanıt
-- Ödeme isteğine dair kanıt
-- Dağıtım kanalına dair kanıt
-- Birim ekonomi veya operasyon kapasitesi
-- Kritik risklerden birinin azalması
+- müşteri hakkındaki kesinlik,
+- problemin şiddeti,
+- veri paylaşma isteği,
+- çözümün ölçülen sonucu,
+- ödeme isteği,
+- dağıtım kanalı,
+- birim ekonomi,
+- operasyon kapasitesi,
+- kritik risklerden biri.
 
 !!! danger "Sahte ilerleme sinyalleri"
-    İsim bulmak, logo tasarlamak, genel pazar büyüklüğü okumak, kapsamı sürekli büyütmek ve ürün tamamlanmadan aylarca kod yazmak; bir karar kapısını açmıyorsa planın merkezine alınmamalıdır.
+    İsim bulmak, logo tasarlamak, genel pazar büyüklüğü okumak, kapsamı sürekli büyütmek ve ürün tamamlanmadan aylarca kod yazmak; bir karar kapısını açmıyorsa planın merkezine alınmaz.

@@ -10,6 +10,15 @@ nav:
   - Startup:
       - Merkez: startup/index.md
       - Katmanlı Hareket Planı: startup/hareket-plani.md
+      - Sipariş Operasyon Copilot'u:
+          - Ana Karar Ağacı: startup/siparis-operasyon-copilotu/index.md
+          - Pazar ve Müşteri: startup/siparis-operasyon-copilotu/pazar.md
+          - Ürün ve Çözüm: startup/siparis-operasyon-copilotu/urun.md
+          - Dağıtım ve Satış: startup/siparis-operasyon-copilotu/satis.md
+          - Ekonomi: startup/siparis-operasyon-copilotu/ekonomi.md
+          - Deneyler: startup/siparis-operasyon-copilotu/deneyler.md
+          - Karar Günlüğü: startup/siparis-operasyon-copilotu/karar-gunlugu.md
+          - Kanıt Radarı: startup/siparis-operasyon-copilotu/kanit-radari.md
       - Türkiye'ye Giriş: startup/turkiyeye-giris.md
   - Şablonlar:
       - Startup Karar Ağacı: sablonlar/startup-karar-agaci.md
@@ -70,6 +79,8 @@ extra_css:
   - assets/stylesheets/extra.css
 
 extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js
+  - assets/javascripts/mermaid.js
   - https://cdn.jsdelivr.net/npm/markmap-autoloader@0.18.12
 
 copyright: Faruk Knowledge Base · karar vermek için yaz, hareket etmek için haritala
